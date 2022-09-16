@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -22,7 +23,6 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
-						<!--<li><a href="#two">Skills</a></li>-->
 						<li><a href="#three">Projects</a></li>
 					</ul>
 				</nav>
@@ -44,7 +44,6 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<!--<img src="images/banner.jpg" alt="" />-->
 									<img src="images/tetons.png" alt="" />
 								</div>
 								<div class="container">
@@ -56,23 +55,6 @@
 							</section>
 
 						<!-- Two -->
-						<!--
-							<section id="two">
-								<div class="container">
-									<h3>Skills</h3>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-cubes">Mathematical modeling</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
-									</ul>
-								</div>
-							</section>
-						-->
-
-						<!-- Three -->
 							<section id="three">
 								<div class="container">
 									<h3>Projects</h3>
@@ -82,35 +64,64 @@
 											<a href="https://rateourcourses.com" class="image"><img src="images/roc.png" alt="" /></a>
 											<div class="inner">
 												<h4><a href="https://www.rateourcourses.com">RateOurCourses.com</a></h4>
-												<p>RateOurCourses.com is a student-run course and professor review website at Amherst College. Since taking development, I have rewritten the site's backend in the Flask Python framework and iteratedon /reimplemented the UI. The site is hosted on AWS Elastic Beanstalk.</p>
+												<p>
+                                                    RateOurCourses.com is a student-run course and professor review website at Amherst College. 
+                                                    Since taking over as leads developer, I have rewritten the site's backend in the Flask web framework and iterated on /reimplemented the UI. 
+                                                    The site is hosted on AWS Elastic Beanstalk.
+                                                </p>
+                                                <a href="https://github.com/cammatsui/roc"><i class="fa fa-github"> View Source</i></a>
 											</div>
 										</article>
 										<article>
 											<a href="https://cammatsui.github.io/board-generator" class="image"><img src="images/catan.png" alt="" /></a>
 											<div class="inner">
 												<h4><a href="https://cammatsui.github.io/board-generator">Catan Board Generator</a></h4>
-												<p>A website to generate boards for the <i>Settlers of Catan</i> board game. Allows for choice in resource distribution, desert/port placement, and number distribution.</p>
+												<p>
+                                                    A website to generate boards for the <i>Settlers of Catan</i> board game. 
+                                                    Allows for choice in resource distribution, desert/port placement, and number distribution.
+                                                </p>
+                                                <a href="https://github.com/cammatsui/board-generator"><i class="fa fa-github"> View Source</i></a>
 											</div>
+										</article>
+										<article>
+                                            <a href="https://github.com/cammatsui/aqt_sim" class="image"><img src="images/aqt_sim.png" alt="" /></a>
+                                            <div class="inner">
+												<h4><a href="https://github.com/cammatsui/aqt_sim">Adversarial Queueing Theory (AQT) Simulator</h4></a>
+                                                <p>
+                                                A program for simulating adverseries and forwarding protocols in the adversarial queueing theory model, first proposed by <a href="https://www.cs.cornell.edu/home/kleinber/stoc96-aqt.pdf">Borodin et al.</a> in 2001.
+                                                The program is written in the Rust programming language and is for my thesis in Computer Science at Amherst College.
+                                                </p>
+                                                <a href="https://github.com/cammatsui/aqt_sim"><i class="fa fa-github"> View Source</i></a>
+                                            </div>
+										</article>
+										<article>
+                                            <a href="https://cammatsui.github.io/fractal_site/public/index.html" class="image"><img src="images/fractal_site.png" alt="" /></a>
+                                            <div class="inner">
+                                                <h4><a href="https://cammatsui.github.io/fractal_site/public/index.html">IFS Fractal Website</a></h4>
+                                                <p>
+                                                A program for generating fractals from a <i>Deterministic IFS</i>, <i>IFS with Memory</i>, or <i>Random IFS</i>; an IFS is an 
+                                                <a href="https://en.wikipedia.org/wiki/Iterated_function_system">Iterated Function System</a>.
+                                                I developed this site for Professor Amanda Folsom at Amherst College, and it is utilized for her MATH 225: Fractal Geometry course.
+                                                </p>
+                                                <a href="https://github.com/cammatsui/fractal_site"><i class="fa fa-github"> View Source</i></a>
+                                            </div>
+										</article>
+										<article>
+                                            <a href="https://github.com/cammatsui/tasktree" class="image"><img src="images/tasktree.png" alt="" /></a>
+                                            <div class="inner">
+                                                <h4><a href="https://github.com/cammatsui/tasktree">TaskTree</a></h4>
+                                                <p>
+                                                A task-dependency focused, CLI (command line interface) task/project management tool. Written in Rust.
+                                                </p>
+                                                <a href="https://github.com/cammatsui/tasktree"><i class="fa fa-github"> View Source</i></a>
+                                            </div>
 										</article>
 										<article>
 											<a href="https://github.com/cammatsui/modularepi" class="image"><img src="images/epi.png" alt="" /></a>
 											<div class="inner">
 												<h4><a href="https://github.com/cammatsui/modularepi">ModularEpi</a></h4>
 												<p>ModularEpi is a framework written in Python to easily create and simulate compartmental epidemiological models. Features include metapopulation models and <i>R0</i> calculation with the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871801/"></a>Next Generation Matrix</a> method.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://cammatsui.github.io/conway-gol" class="image"><img src="images/conway.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://cammatsui.github.io/conway-gol">Conway's Game of Life</a></h4>
-												<p>A JavaScript application to run the mathemetician John Horton Conway's cellular automaton the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://www.handicappgolf.com" class="image"><img src="images/handicapp.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://www.handicappgolf.com">HandicApp Golf</a></h4>
-												<p>A website built with Flask, SQLite3, Bootstrap5, and Chart.js to keep track of your golf handicap. Includes database of U.S. golf courses scraped from the <a href="https://www.usga.org">USGA website</a>.</p>
+                                                <a href="https://github.com/cammatsui/modularepi"><i class="fa fa-github"> View Source</i></a>
 											</div>
 										</article>
 									</div>
